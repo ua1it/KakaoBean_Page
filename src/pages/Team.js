@@ -1,7 +1,102 @@
-import React from 'react'
+import React from "react";
+import styled from "styled-components";
 
-export default function Team() {
+const Wrapper = styled.div`
+  background-color: wheat;
+`;
+
+const TeamSection = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, minmax(15rem, auto));
+  grid-gap: 1rem;
+`;
+
+const Member = styled.div`
+  border: 1px solid black;
+  margin: 5px;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 2.2fr 4fr;
+`;
+
+const Left = styled.div`
+  border: 1px solid black;
+`;
+
+const Right = styled.div`
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+`;
+
+const MemberList = [
+  {
+    id: 1,
+    name: "김희찬",
+    mail: "wsx0239@gmail.com",
+    link: "https://github.com/BetterTomorrowThanToday",
+    mind: "뭔가는 남기고 죽어야지",
+  },
+  {
+    id: 2,
+    name: "안수빈",
+    mail: "@gmail.com",
+    link: "https://github.com/happysubin",
+    mind: "1일 1커밋",
+  },
+  {
+    id: 3,
+    name: "김윤호",
+    mail: "@gmail.com",
+    link: "https://github.com/ua1it",
+    mind: "피할 수 없으면 즐겨라",
+  },
+  {
+    id: 4,
+    name: "추성준",
+    mail: "j949854@gmail.com",
+    link: "https://github.com/ChuSeongJun",
+    mind: "내 기분이 내 태도가 되지말자",
+  },
+  {
+    id: 5,
+    name: "임인범",
+    mail: "@gmail.com",
+    link: "https://github.com/lib26",
+    mind: "넘어질거면 앞으로 넘어져라",
+  },
+  {
+    id: 6,
+    name: "조연겸",
+    mail: "@gmail.com",
+    link: "12",
+    mind: "123123",
+  },
+];
+
+const Team = () => {
   return (
-    <div>Team</div>
-  )
-}
+    <Wrapper>
+      <h1>팀원 소개</h1>
+      <TeamSection>
+        {MemberList.map((it) => (
+          <Member>
+            <Left>{it.id}</Left>
+            <Right>
+              <div>이름: {it.name}</div>
+              <div>이메일: {it.mail}</div>
+              <div>GitHub: {it.link}</div>
+              <div>좌우명: {it.mind}</div>
+            </Right>
+          </Member>
+        ))}
+      </TeamSection>
+    </Wrapper>
+  );
+};
+
+export default Team;
