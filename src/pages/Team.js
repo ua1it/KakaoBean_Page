@@ -36,6 +36,7 @@ const Right = styled.div`
 const MemberList = [
   {
     id: 1,
+    img: "https://www.shutterstock.com/ko/image-photo/happy-curly-millennial-indian-man-sitting-2140413095",
     name: "김희찬",
     mail: "wsx0239@gmail.com",
     link: "https://github.com/BetterTomorrowThanToday",
@@ -43,20 +44,23 @@ const MemberList = [
   },
   {
     id: 2,
+    img: "",
     name: "안수빈",
-    mail: "@gmail.com",
+    mail: "asb0711@gmail.com",
     link: "https://github.com/happysubin",
     mind: "1일 1커밋",
   },
   {
     id: 3,
+    img: "",
     name: "김윤호",
-    mail: "@gmail.com",
+    mail: "hkj9909@gmail.com",
     link: "https://github.com/ua1it",
     mind: "피할 수 없으면 즐겨라",
   },
   {
     id: 4,
+    img: "",
     name: "추성준",
     mail: "j949854@gmail.com",
     link: "https://github.com/ChuSeongJun",
@@ -64,6 +68,7 @@ const MemberList = [
   },
   {
     id: 5,
+    img: "",
     name: "임인범",
     mail: "@gmail.com",
     link: "https://github.com/lib26",
@@ -71,6 +76,7 @@ const MemberList = [
   },
   {
     id: 6,
+    img: "",
     name: "조연겸",
     mail: "@gmail.com",
     link: "12",
@@ -85,7 +91,10 @@ const Team = () => {
       <TeamSection>
         {MemberList.map((it) => (
           <Member>
-            <Left>{it.id}</Left>
+            <Left>
+              {it.id}
+              <img src={it.img} alt="face" />{" "}
+            </Left>
             <Right>
               <div>이름: {it.name}</div>
               <div>이메일: {it.mail}</div>
