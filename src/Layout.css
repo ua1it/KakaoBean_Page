@@ -24,6 +24,14 @@ body {
 }
 
 .logo {
+  width: 50px;
+}
+
+.navbar-logo{
+  color: 'black';
+  justify-self: start;
+  cursor: pointer;
+  margin-right: 26%;
 }
 
 .menu-icon {
@@ -31,6 +39,10 @@ body {
 }
 
 .nav-elements {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2f234f;
+  text-decoration: none;
 }
 
 .nav-elements ul {
@@ -64,6 +76,18 @@ body {
   width: 100%;
   height: 2px;
   background-color: #574c4c;
+}
+
+.nav-links{
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+
+}
+
+.nav-links:hover{
+  background-color: #ece9d7;
+  border-radius: 0;
 }
 
 @media (max-width: 768px) {
