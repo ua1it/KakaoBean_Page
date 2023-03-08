@@ -22,6 +22,17 @@ const Member = styled.div`
 
 const Left = styled.div`
   border: 1px solid black;
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+`;
+const LeftName = styled.div``;
+
+const LeftImg = styled.img`
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const Right = styled.div`
@@ -35,8 +46,8 @@ const Right = styled.div`
 
 const MemberList = [
   {
-    id: 1,
-    img: "https://www.shutterstock.com/ko/image-photo/happy-curly-millennial-indian-man-sitting-2140413095",
+    id: "팀장",
+    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
     name: "김희찬",
     mail: "wsx0239@gmail.com",
     link: "https://github.com/BetterTomorrowThanToday",
@@ -78,9 +89,9 @@ const MemberList = [
     id: 6,
     img: "",
     name: "조연겸",
-    mail: "@gmail.com",
-    link: "12",
-    mind: "123123",
+    mail: "whdusrua@gmail.com",
+    link: "https://github.com/jomo34",
+    mind: "구겨진 종이가 더 멀리 날아간다",
   },
 ];
 
@@ -92,8 +103,8 @@ const Team = () => {
         {MemberList.map((it) => (
           <Member>
             <Left>
-              {it.id}
-              <img src={it.img} alt="face" />{" "}
+              <LeftName>{it.id}</LeftName>
+              <LeftImg src={it.img} alt="" />
             </Left>
             <Right>
               <div>이름: {it.name}</div>
