@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Wrapper = styled.div`
   background-color: wheat;
@@ -46,52 +46,52 @@ const Right = styled.div`
 
 const MemberList = [
   {
-    id: "팀장",
-    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
-    name: "김희찬",
-    mail: "wsx0239@gmail.com",
-    link: "https://github.com/BetterTomorrowThanToday",
-    mind: "뭔가는 남기고 죽어야지",
+    id: '팀장',
+    img: 'https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg',
+    name: '김희찬',
+    mail: 'wsx0239@gmail.com',
+    link: 'https://github.com/BetterTomorrowThanToday',
+    mind: '뭔가는 남기고 죽어야지',
   },
   {
     id: 2,
-    img: "",
-    name: "안수빈",
-    mail: "asb0711@gmail.com",
-    link: "https://github.com/happysubin",
-    mind: "1일 1커밋",
+    img: '',
+    name: '안수빈',
+    mail: 'asb0711@gmail.com',
+    link: 'https://github.com/happysubin',
+    mind: '1일 1커밋',
   },
   {
     id: 3,
-    img: "",
-    name: "김윤호",
-    mail: "hkj9909@gmail.com",
-    link: "https://github.com/ua1it",
-    mind: "피할 수 없으면 즐겨라",
+    img: '',
+    name: '김윤호',
+    mail: 'hkj9909@gmail.com',
+    link: 'https://github.com/ua1it',
+    mind: '피할 수 없으면 즐겨라',
   },
   {
     id: 4,
-    img: "",
-    name: "추성준",
-    mail: "j949854@gmail.com",
-    link: "https://github.com/ChuSeongJun",
-    mind: "내 기분이 내 태도가 되지말자",
+    img: '',
+    name: '추성준',
+    mail: 'j949854@gmail.com',
+    link: 'https://github.com/ChuSeongJun',
+    mind: '내 기분이 내 태도가 되지말자',
   },
   {
     id: 5,
-    img: "",
-    name: "임인범",
-    mail: "@gmail.com",
-    link: "https://github.com/lib26",
-    mind: "넘어질거면 앞으로 넘어져라",
+    img: '',
+    name: '임인범',
+    mail: 'dlsdlaqja888@gmail.com',
+    link: 'https://github.com/lib26',
+    mind: '넘어질거면 앞으로 넘어져라',
   },
   {
     id: 6,
-    img: "",
-    name: "조연겸",
-    mail: "whdusrua@gmail.com",
-    link: "https://github.com/jomo34",
-    mind: "구겨진 종이가 더 멀리 날아간다",
+    img: '',
+    name: '조연겸',
+    mail: 'whdusrua@gmail.com',
+    link: 'https://github.com/jomo34',
+    mind: '구겨진 종이가 더 멀리 날아간다',
   },
 ];
 
@@ -104,7 +104,7 @@ const Team = () => {
           <Member>
             <Left>
               <LeftName>{it.id}</LeftName>
-              <LeftImg src={it.img} alt="" />
+              <LeftImg src={it.img} alt='' />
             </Left>
             <Right>
               <div>이름: {it.name}</div>
