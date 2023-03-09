@@ -22,7 +22,7 @@ const MemberList = [
   },
   {
     id: 2,
-    img: "",
+    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
     name: "안수빈",
     mail: "asb0711@gmail.com",
     link: "https://github.com/happysubin",
@@ -31,7 +31,7 @@ const MemberList = [
   },
   {
     id: 3,
-    img: "",
+    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
     name: "김윤호",
     mail: "hkj9909@gmail.com",
     link: "https://github.com/ua1it",
@@ -40,7 +40,7 @@ const MemberList = [
   },
   {
     id: 4,
-    img: "",
+    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
     name: "추성준",
     mail: "j949854@gmail.com",
     link: "https://github.com/ChuSeongJun",
@@ -49,7 +49,7 @@ const MemberList = [
   },
   {
     id: 5,
-    img: "",
+    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
     name: "임인범",
     mail: "@gmail.com",
     link: "https://github.com/lib26",
@@ -58,7 +58,7 @@ const MemberList = [
   },
   {
     id: 6,
-    img: "",
+    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
     name: "조연겸",
     mail: "whdusrua@gmail.com",
     link: "https://github.com/jomo34",

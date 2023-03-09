@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Button } from "./styles";
+import { Container, Button, Header } from "./styles";
 
 const imgArr = [
   "gif/tree01.png",
@@ -50,7 +50,7 @@ class Tree extends React.Component {
   render() {
     return (
       <Container>
-        <h1>카카오 빈 나무를 클릭보세요!!</h1>
+        <Header>카카오 빈 나무를 클릭보세요!!</Header>
         <div onClick={this.growTree}>
           <img src={this.state.imgUrl} width="960" height="540" />
         </div>
