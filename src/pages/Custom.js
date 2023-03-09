@@ -1,5 +1,20 @@
 import React from 'react'
+import styled from "styled-components";
 
+const Container = styled.div`
+  width: 100vw;
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  justify-content: center;
+`;
+
+const Button = styled.button`
+  width: 5vw;
+  justify-content: center;
+  border-radius: 10px;
+  outline: none;
+`
 
 const imgArr = [
     "gif/tree01.png",
@@ -45,10 +60,13 @@ class Tree extends React.Component{
 
     render(){
         return (
-            <div onClick={this.growTree}>
-                <h1>나무를 클릭해 키워보세요!!</h1>
-                <img src={this.state.imgUrl} width="480" height="270"/>
-            </div>
+            <Container>
+                <h1>카카오 빈 나무를 클릭보세요!!</h1>
+                <div onClick={this.growTree}>
+                    <img src={this.state.imgUrl} width="960" height="540"/>
+                </div>
+                <Button type='button'>Reset</Button>
+            </Container>
         )
     }
 }
