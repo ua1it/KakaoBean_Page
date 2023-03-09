@@ -32,17 +32,48 @@ export const MainImg = styled.img`
   align-items: center;
 `;
 
+export const AngleDown = styled.img`
+  width:5rem;
+  height:5rem;
+  margin-top:3rem;
+  align-items: center;
+`;
+
 export const FirstFrame = styled.div`
   color: "";
-  text-align: right;
+  text-align: left;
+  width: 90vw;
+  height: 100vh;
+  border: 1px solid black;
+  // margin: 5px;
+  // padding: 0.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 `;
 
 export const SecondFrame = styled.div`
   color: "";
   text-align: left;
+  width: 90vw;
+  height: 100vh;
+  border: 1px solid black;
+  // margin: 5px;
+  // padding: 0.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 `;
 
 export const ThirdFrame = styled.div`
   color: "";
   text-align: left;
+  width: 90vw;
+  height: 100vh;
+  border: 1px solid black;
+  // margin: 5px;
+  // padding: 0.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 `;
