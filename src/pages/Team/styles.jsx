@@ -24,6 +24,8 @@ export const Member = styled.div`
   padding: 0.5rem;
   display: grid;
   grid-template-columns: 2.2fr 4fr;
+  -webkit-box-shadow: 8px 6px 14px -6px #e4ffd5;
+  box-shadow: 8px 6px 14px -6px #e4ffd5;
 `;
 
 export const Left = styled.div`
@@ -38,12 +40,13 @@ export const LeftName = styled.div``;
 export const LeftImg = styled.img`
   width: 10rem;
   height: 10rem;
+  border-radius: 50%;
 `;
 
 export const Role = styled.span`
   position: absolute;
-  left: 75%;
-  top: 5%;
+  left: 65%;
+  top: 10%;
   background-color: beige;
   padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
