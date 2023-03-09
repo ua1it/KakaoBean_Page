@@ -5,7 +5,7 @@ import Layout from "./Layout";
 import Home from "./pages/Home";
 import Team from "./pages/Team/index";
 import Vision from "./pages/Vision";
-import Custom from "./pages/Custom";
+import Custom from "./pages/Custom/index";
 
 export default function App() {
   return (
