@@ -3,7 +3,6 @@ import { Outlet, Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free";
 import "./styles.css";
 import Brand from "../../images/bean.png";
-import Menu from "../..//images/menu.png";
 
 export default function Layout() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -14,18 +13,17 @@ export default function Layout() {
   return (
     <nav className="navbar">
       <div className="container">
-        <img className="logo" src={Brand} />
-        <h1 className="navbar-logo">KakaoBean</h1>
+        <Link to="/" style={{textDecoration:"none"}}>
+          <div>
+            <img className="logo" src={Brand} />
+            <h1 className="navbar-logo">KakaoBean</h1>
+          </div>
+        </Link>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <i className={showNavbar ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
         <div className="nav-elements">
           <ul className={showNavbar ? "nav-elements active" : "nav-elements"}>
-            <li>
-              <a href="/" className="nav-links">
-                Home
-              </a>
-            </li>
             <li>
               <a href="/vision" className="nav-links">
                 Vision
