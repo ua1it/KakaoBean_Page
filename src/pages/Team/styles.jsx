@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   background-color: wheat;
+  width: 100%;
+  height: 100vh;
 `;
 
 export const TeamSection = styled.div`
