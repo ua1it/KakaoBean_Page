@@ -2,7 +2,7 @@ import "./App.css";
 import ReactDDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
-import Home from "./pages/Home";
+import Home from "./pages/Home/index";
 import Team from "./pages/Team/index";
 import Vision from "./pages/Vision";
 import Custom from "./pages/Custom";
