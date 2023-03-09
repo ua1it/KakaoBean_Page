@@ -1,4 +1,11 @@
 import React from "react";
+import image1 from "../../images/image1.jpeg";
+import image2 from "../../images/image2.png";
+import image3 from "../../images/image3.png";
+import image4 from "../../images/image4.png";
+import image5 from "../../images/image5.png";
+import image6 from "../../images/image6.png";
+
 import {
   Info,
   Left,
@@ -13,7 +20,7 @@ import {
 const MemberList = [
   {
     id: "팀장",
-    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
+    img: image5,
     name: "김희찬",
     mail: "wsx0239@gmail.com",
     link: "https://github.com/BetterTomorrowThanToday",
@@ -22,7 +29,7 @@ const MemberList = [
   },
   {
     id: 2,
-    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
+    img: image4,
     name: "안수빈",
     mail: "asb0711@gmail.com",
     link: "https://github.com/happysubin",
@@ -31,7 +38,7 @@ const MemberList = [
   },
   {
     id: 3,
-    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
+    img: image2,
     name: "김윤호",
     mail: "hkj9909@gmail.com",
     link: "https://github.com/ua1it",
@@ -40,7 +47,7 @@ const MemberList = [
   },
   {
     id: 4,
-    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
+    img: image3,
     name: "추성준",
     mail: "j949854@gmail.com",
     link: "https://github.com/ChuSeongJun",
@@ -49,7 +56,7 @@ const MemberList = [
   },
   {
     id: 5,
-    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
+    img: image1,
     name: "임인범",
     mail: "@gmail.com",
     link: "https://github.com/lib26",
@@ -58,7 +65,7 @@ const MemberList = [
   },
   {
     id: 6,
-    img: "https://dimg.donga.com/wps/NEWS/IMAGE/2022/01/28/111500268.2.jpg",
+    img: image6,
     name: "조연겸",
     mail: "whdusrua@gmail.com",
     link: "https://github.com/jomo34",
