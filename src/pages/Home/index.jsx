@@ -1,4 +1,3 @@
-import logo from "../../images/bean.png";
 import mascot from "../../images/beanSolo.png"
 import React from "react";
 import {

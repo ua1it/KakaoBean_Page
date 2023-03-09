@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free";
 import "./styles.css";
-import Brand from "../../images/bean.png";
+import Brand from "../../images/kakaoBean.png";
 
 export default function Layout() {
   const [showNavbar, setShowNavbar] = useState(false);

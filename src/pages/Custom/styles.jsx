@@ -8,6 +8,11 @@ export const Container = styled.div`
   justify-content: center;
 `;
 
+export const Header = styled.div`
+  font-weight: bold;
+  font-size: 2rem;
+`;
+
 export const Button = styled.button`
   width: 5vw;
   justify-content: center;
