@@ -67,6 +67,10 @@ const MemberList = [
   },
 ];
 
+const handleOpenNewTab = (url) => {
+  window.open(url, "_blank", "noopener, noreferrer");
+};
+
 const Team = () => {
   return (
     <Wrapper>
@@ -82,7 +86,7 @@ const Team = () => {
             <Right>
               <div>이름: {it.name}</div>
               <div>이메일: {it.mail}</div>
-              <div>GitHub: {it.link}</div>
+              <div onClick={() => handleOpenNewTab(it.link)}>GitHub: {it.link}</div>
               <div>좌우명: {it.mind}</div>
             </Right>
           </Member>
