@@ -21,6 +21,7 @@ const Member = styled.div`
 `;
 
 const Left = styled.div`
+  position: relative;
   border: 1px solid black;
   display: grid;
   grid-template-rows: 1fr 5fr;
@@ -35,6 +36,15 @@ const LeftImg = styled.img`
   align-items: center;
 `;
 
+const Role = styled.span`
+  position: absolute;
+  left: 60%;
+  top: 10%;
+  background-color: beige;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+`;
 const Right = styled.div`
   border: 1px solid black;
   display: flex;
@@ -52,6 +62,7 @@ const MemberList = [
     mail: "wsx0239@gmail.com",
     link: "https://github.com/BetterTomorrowThanToday",
     mind: "뭔가는 남기고 죽어야지",
+    role: true,
   },
   {
     id: 2,
@@ -60,6 +71,7 @@ const MemberList = [
     mail: "asb0711@gmail.com",
     link: "https://github.com/happysubin",
     mind: "1일 1커밋",
+    role: false,
   },
   {
     id: 3,
@@ -68,6 +80,7 @@ const MemberList = [
     mail: "hkj9909@gmail.com",
     link: "https://github.com/ua1it",
     mind: "피할 수 없으면 즐겨라",
+    role: false,
   },
   {
     id: 4,
@@ -76,6 +89,7 @@ const MemberList = [
     mail: "j949854@gmail.com",
     link: "https://github.com/ChuSeongJun",
     mind: "내 기분이 내 태도가 되지말자",
+    role: false,
   },
   {
     id: 5,
@@ -84,6 +98,7 @@ const MemberList = [
     mail: "@gmail.com",
     link: "https://github.com/lib26",
     mind: "넘어질거면 앞으로 넘어져라",
+    role: false,
   },
   {
     id: 6,
@@ -92,6 +107,7 @@ const MemberList = [
     mail: "whdusrua@gmail.com",
     link: "https://github.com/jomo34",
     mind: "구겨진 종이가 더 멀리 날아간다",
+    role: false,
   },
 ];
 
@@ -105,6 +121,7 @@ const Team = () => {
             <Left>
               <LeftName>{it.id}</LeftName>
               <LeftImg src={it.img} alt="" />
+              {it.role ? <Role>팀장</Role> : <Role>팀원</Role>}
             </Left>
             <Right>
               <div>이름: {it.name}</div>
