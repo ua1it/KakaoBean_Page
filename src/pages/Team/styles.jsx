@@ -6,6 +6,11 @@ export const Wrapper = styled.div`
   height: 100vh;
 `;
 
+export const Info = styled.div`
+  font-size: 2rem;
+  font-weight: bold;
+`;
+
 export const TeamSection = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
