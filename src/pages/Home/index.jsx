@@ -1,4 +1,5 @@
 import logo from "../../images/bean.png";
+import mascot from "../../images/beanSolo.png"
 import React from "react";
 import {
   FirstFrame,
@@ -15,17 +16,9 @@ const Home = () => {
     <Wrapper>
       <Landing>
         <LandingFont>
-          <h5
-            style={{
-              textAlign: "left",
-              marginLeft: "3.5rem",
-              fontWeight: "500",
-            }}
-          >
-            we are
-          </h5>
+          <h5 style={{textAlign:"left", fontSize: "30px", marginLeft:"3.3rem"}}>we are</h5>
           <h1>Kakao Beans!</h1>
-          <MainImg src={logo} />
+          <MainImg src={mascot} />
         </LandingFont>
       </Landing>
 

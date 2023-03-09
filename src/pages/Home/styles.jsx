@@ -7,9 +7,9 @@ export const Wrapper = styled.div`
 export const Landing = styled.div`
   width: 100vm;
   height: 100vh;
-  border: 1px solid black;
-  margin: 5px;
-  padding: 0.5rem;
+  // border: 1px solid black;
+  // margin: 5px;
+  // padding: 0.5rem;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -21,10 +21,13 @@ export const LandingFont = styled.div`
   font-size: 66px;
   font-weight: 700;
   line-height: 0.5;
-  color: rgb(0, 0, 0);
+  color: #222222;
 `;
 
 export const MainImg = styled.img`
+  margin: 2rem;
+  width:30vm;
+  height:60vh;
   justify-content: center;
   align-items: center;
 `;
