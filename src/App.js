@@ -1,7 +1,7 @@
 import "./App.css";
 import ReactDDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./components/HeaderBar/index";
+import Layout from "./Components/HeaderBar/index";
 import Home from "./pages/Home/index";
 import Team from "./pages/Team/index";
 import Vision from "./pages/Vision";

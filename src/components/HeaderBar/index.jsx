@@ -14,7 +14,7 @@ export default function Layout() {
     <nav className="navbar">
       <div className="container">
         <Link to="/" style={{textDecoration:"none"}}>
-          <div>
+          <div className="logo-name">
             <img className="logo" src={Brand} />
             <h1 className="navbar-logo">KakaoBean</h1>
           </div>

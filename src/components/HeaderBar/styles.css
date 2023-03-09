@@ -7,6 +7,10 @@ body {
   background-color: #fcfcfc;
 }
 
+.logo-name {
+  display: flex;
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -19,7 +23,7 @@ body {
 
 .navbar {
   height: 60px;
-  background-color: #fef7e5;
+  background-color: #ffffff;
   position: relative;
 }
 
