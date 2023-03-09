@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
+import logo from "../images/bean.png"
 
 const Wrapper = styled.div`
   background-color:"";
@@ -53,7 +54,7 @@ const Home = () => {
         <LandingFont>
           <h5 style={{textAlign:"left", marginLeft:"3.5rem", fontWeight: "500"}}>we are</h5>
           <h1>Kakao Beans!</h1>
-          <MainImg src={"./img/bean.png"} alt="" />
+          <MainImg src={logo}/>
         </LandingFont>
       </Landing>
 
