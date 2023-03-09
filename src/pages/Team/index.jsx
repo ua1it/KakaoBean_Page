@@ -67,6 +67,10 @@ const MemberList = [
   },
 ];
 
+const handleOpenNewTab = (url) => {
+  window.open(url, "_blank", "noopener, noreferrer");
+};
+
 const Team = () => {
   return (
     <Wrapper>
