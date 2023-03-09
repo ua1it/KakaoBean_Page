@@ -11,10 +11,14 @@ body {
   display: flex;
 }
 
+.logo-text {
+  color: black;
+  text-decoration: none;
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,19 +27,20 @@ body {
 
 .navbar {
   height: 60px;
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   position: relative;
 }
 
 .logo {
-  width: 50px;
+  width: 80px;
+  height: 40px;
+  margin : 14px;
 }
 
 .navbar-logo{
   color: 'black';
   justify-self: start;
   cursor: pointer;
-  margin-right: 26%;
 }
 
 .menu-icon {
@@ -90,7 +95,7 @@ body {
 }
 
 .nav-links:hover{
-  background-color: #ece9d7;
+  background-color: #ebebeb;
   border-radius: 0;
 }
 
