@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Info,
   Left,
   LeftImg,
   Member,
@@ -69,7 +70,7 @@ const MemberList = [
 const Team = () => {
   return (
     <Wrapper>
-      <h1>팀원 소개</h1>
+      <Info>팀원 소개</Info>
       <TeamSection>
         {MemberList.map((it) => (
           <Member>
