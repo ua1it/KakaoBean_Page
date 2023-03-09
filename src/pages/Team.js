@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Wrapper = styled.div`
   background-color: wheat;
@@ -23,23 +23,21 @@ const Member = styled.div`
 const Left = styled.div`
   position: relative;
   border: 1px solid black;
-  display: grid;
-  grid-template-rows: 1fr 5fr;
-`;
-const LeftName = styled.div``;
-
-const LeftImg = styled.img`
-  width: 7rem;
-  height: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
+const LeftName = styled.div``;
+
+const LeftImg = styled.img`
+  width: 10rem;
+  height: 10rem;
+`;
 
 const Role = styled.span`
   position: absolute;
-  left: 60%;
-  top: 10%;
+  left: 75%;
+  top: 5%;
   background-color: beige;
   padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
@@ -119,7 +117,7 @@ const Team = () => {
         {MemberList.map((it) => (
           <Member>
             <Left>
-              <LeftName>{it.id}</LeftName>
+              {/*<LeftName>{it.id}</LeftName>*/}
               <LeftImg src={it.img} alt="" />
               {it.role ? <Role>팀장</Role> : <Role>팀원</Role>}
             </Left>
