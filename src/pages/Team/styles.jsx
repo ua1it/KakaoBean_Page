@@ -2,8 +2,10 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   background-color: #fcfcfc;
-  width: 100%;
-  height: 100vh;
+  height: 110vh;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 `;
 
 export const Info = styled.div`
@@ -19,18 +21,16 @@ export const TeamSection = styled.div`
 `;
 
 export const Member = styled.div`
-  border: 1px solid black;
   margin: 5px;
   padding: 0.5rem;
   display: grid;
   grid-template-columns: 2.2fr 4fr;
-  -webkit-box-shadow: 8px 6px 14px -6px #e4ffd5;
-  box-shadow: 8px 6px 14px -6px #e4ffd5;
+  -webkit-box-shadow: 8px 6px 14px -6px #edecea;
+  box-shadow: 8px 6px 14px -6px #edecea;
 `;
 
 export const Left = styled.div`
   position: relative;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +53,6 @@ export const Role = styled.span`
   font-weight: bold;
 `;
 export const Right = styled.div`
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
