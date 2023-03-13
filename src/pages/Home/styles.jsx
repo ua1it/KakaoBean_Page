@@ -14,7 +14,7 @@ export const Landing = styled.div`
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  
+  background-color: #fffffd;
 `;
 
 export const LandingFont = styled.div`
@@ -41,21 +41,35 @@ export const AngleDown = styled.img`
   height: 5rem;
   margin-top: 3rem;
   align-items: center;
+  position: inherit;
+  bottom: 0;
 `;
 
 export const Frame = styled.div`
-export const Frame = styled.div`
   color: "";
   text-align: right;
-  width: 90vw;
-  height: 100vh;
+  width: 90%;
+  height: 90vh;
   border: 1px solid black;
   // margin: 5px;
   // padding: 0.5rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   overflow: auto;
 `;
+
+export const ExImg = styled.img`
+  width: 40rem;
+  height: 30rem;
+  align-self: left;
+  .left{
+    align-self: left;
+  }
+  .right{
+    align-self: right;
+  }
+`;
+
 
 // export const FirstFrame = styled.div`
 //   color: "";
