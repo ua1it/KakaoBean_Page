@@ -5,20 +5,24 @@ export const Wrapper = styled.div`
 `;
 
 export const Landing = styled.div`
-  width: 100vm;
-  height: 100vh;
-  // border: 1px solid black;
-  // margin: 5px;
-  // padding: 0.5rem;
+  width: 100%;
+  height: 95vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   align-items: center;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  
 `;
 
 export const LandingFont = styled.div`
-  width: 50rem;
+  width: fit-content;
+  height: fit-content;
   text-align: center;
-  font-size: 66px;
+  margin-top: 5rem;
+  font-size: 50px;
   font-weight: 700;
   line-height: 0.5;
   color: #222222;
@@ -26,8 +30,8 @@ export const LandingFont = styled.div`
 
 export const MainImg = styled.img`
   margin: 2rem;
-  width:30vm;
-  height:60vh;
+  width:30rem;
+  height:45rem;
   justify-content: center;
   align-items: center;
 `;
@@ -39,7 +43,7 @@ export const AngleDown = styled.img`
   align-items: center;
 `;
 
-export const FirstFrame = styled.div`
+export const Frame = styled.div`
   color: "";
   text-align: left;
   width: 90vw;
@@ -52,28 +56,41 @@ export const FirstFrame = styled.div`
   flex-direction: column;
 `;
 
-export const SecondFrame = styled.div`
-  color: "";
-  text-align: left;
-  width: 90vw;
-  height: 100vh;
-  border: 1px solid black;
-  // margin: 5px;
-  // padding: 0.5rem;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-`;
+// export const FirstFrame = styled.div`
+//   color: "";
+//   text-align: left;
+//   width: 90vw;
+//   height: 100vh;
+//   border: 1px solid black;
+//   // margin: 5px;
+//   // padding: 0.5rem;
+//   align-items: center;
+//   display: flex;
+//   flex-direction: column;
+// `;
 
-export const ThirdFrame = styled.div`
-  color: "";
-  text-align: left;
-  width: 90vw;
-  height: 100vh;
-  border: 1px solid black;
-  // margin: 5px;
-  // padding: 0.5rem;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-`;
+// export const SecondFrame = styled.div`
+//   color: "";
+//   text-align: left;
+//   width: 90vw;
+//   height: 100vh;
+//   border: 1px solid black;
+//   // margin: 5px;
+//   // padding: 0.5rem;
+//   align-items: center;
+//   display: flex;
+//   flex-direction: column;
+// `;
+
+// export const ThirdFrame = styled.div`
+//   color: "";
+//   text-align: left;
+//   width: 90vw;
+//   height: 100vh;
+//   border: 1px solid black;
+//   // margin: 5px;
+//   // padding: 0.5rem;
+//   align-items: center;
+//   display: flex;
+//   flex-direction: column;
+// `;
